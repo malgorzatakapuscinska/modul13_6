@@ -4,6 +4,7 @@ var OSinfo = require('./modules/OSinfo');
 var time = require('./modules/time');
 var emitter = new EventEmitter();
 
+
 emitter.on('beforeCommand', function(instruction){
 	console.log('You wrote: ' + instruction + ' trying run command ..')
 });
