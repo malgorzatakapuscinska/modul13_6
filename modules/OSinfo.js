@@ -1,11 +1,5 @@
 var os = require('os');
 var colors = require('colors');
-var EventEmitter = require('events').EventEmitter; // bo potrzebujemy tylko klasy EventEmitter
-var emitter = new EventEmitter();
-
-emitter.on('beforeCommand', function(instruction){
-	
-})
 
 function getOSinfo() {
     var type = os.type();
